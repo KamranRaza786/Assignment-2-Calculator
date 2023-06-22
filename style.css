@@ -7,6 +7,7 @@
   h1{
     text-align: center;
     font-size: 2cm;
+    color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 0.2cm;
   }
@@ -31,7 +32,7 @@
   body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, rgb(182, 184, 147), rgb(33, 95, 57));
+    background: linear-gradient(to right, rgb(87, 92, 5), rgb(15, 238, 101));
     }
   
     .calculator-grid {
@@ -40,7 +41,7 @@
       justify-content: center;
       align-content: center;
       min-height: 100vh;
-      grid-template-columns: repeat(4, 100px);
+      grid-template-columns: repeat(5, 100px);
       grid-template-rows: minmax(120px, auto) repeat(5, 100px);
       }
   
@@ -79,6 +80,6 @@
         }
   
         .output .current-operand{
-          color: rgb(116, 14, 14);
+          color: rgba(112, 13, 13, 0.75);
           font-size: 2.5rem;
         }
