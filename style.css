@@ -17,6 +17,7 @@ input{
 
 button{
   border-radius: 20px;
+  border-color: aliceblue;
   font-size: 40px;
   background: #978fa0;
   width: 102px;
@@ -36,4 +37,8 @@ button{
 h1{
   font-size: 28px;
   font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+  background-color: #244624;
 }
