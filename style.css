@@ -57,13 +57,13 @@
   
         .span-two {
           grid-column: span 2;
-          color: #c91313;
-          background-color: rgba(61, 174, 202, 0.8);
+          color: #690a0a;
+          background-color: rgba(15, 97, 117, 0.8);
         }
   
         .output{
           grid-column: 1 / -1;
-          background-color: rgba(214, 211, 211, 0.75);
+          background-color: rgba(15, 97, 117, 0.8);
           display: flex;
           align-items: flex-end;
           justify-content: space-around;
@@ -74,11 +74,11 @@
         }
   
         .output .previous-operand{
-          color: rgba(255,255, 255, 0.75);
+          color: rgba(112, 13, 13, 0.75);
           font-size: 1.5rem;
         }
   
         .output .current-operand{
-          color: white;
+          color: rgb(116, 14, 14);
           font-size: 2.5rem;
         }
