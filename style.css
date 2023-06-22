@@ -6,6 +6,7 @@
 
 table{
   margin: auto;
+  display: flex;
 }
 
 input{
