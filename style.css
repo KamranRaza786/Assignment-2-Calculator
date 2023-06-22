@@ -1,84 +1,56 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-  font-family: Impact, Cambria, Cochin, Georgia, Times, 'Times New Roman',;
-  font-weight: normal;
-}
-
-h1{
-  text-align: center;
-  font-size: 1.5cm;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 0.2cm;
-}
-h2{
-  text-align: center;
-  font-size: 1cm;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 0.3cm;
-}
-h3{
-  text-align: center;
-  font-size: 1cm;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 0.5cm;
-}
-h4{
-  text-align: center;
-  font-size: 0.7cm;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 0.1cm;
-}
-body {
+*{
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, rgb(182, 184, 147), rgb(33, 95, 57));
-  }
+}
 
-  .calculator-grid {
-    
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    min-height: 100vh;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
-    }
+.container{
+  width: 100%;
+  height: 100vh;
+  background: #e3f9ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    .calculator-grid > button {
-      cursor: pointer;
-      font-size: 2.5rem;
-      border: 10pt;
-      outline: auto; 
-    }
+.calculator{
+  background: #3a4452;
+  padding: 20px;
+  border-radius: 10px;
 
-      .calculator-grid > button:hover {
-        background-color: #2f2e81;
-      }
+}
 
-      .span-two {
-        grid-column: span 2;
-        color: #c91313;
-        background-color: rgba(61, 174, 202, 0.8);
-      }
+.calculator form input {
+  border: 0;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), -5px -5px 15px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
 
-      .output{
-        grid-column: 1 / -1;
-        background-color: rgba(214, 211, 211, 0.75);
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-around;
-        flex-direction: column;
-        padding: 10px;
-        word-wrap: break-word;
-        word-break: break-all;
-      }
+}
 
-      .output .previous-operand{
-        color: rgba(255,255, 255, 0.75);
-        font-size: 1.5rem;
-      }
+form .display{
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
 
-      .output .current-operand{
-        color: white;
-        font-size: 2.5rem;
-      }
+form .display input{
+  text-align: right;
+  flex: 1;
+  font-size: 45px;
+  box-shadow: none;
+}
+
+form input.equal{
+  width: 145px;
+} 
+
+form input.operator{
+  color: cyan;
+}
