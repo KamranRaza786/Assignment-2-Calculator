@@ -23,6 +23,7 @@ input{
 
 button{
   border-radius: 20px;
+  border-color: aliceblue;
   font-size: 40px;
   background: #440f81;
   width: 102px;
