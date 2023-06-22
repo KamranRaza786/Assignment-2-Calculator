@@ -39,6 +39,8 @@ h1{
   font-family: 'Courier New', Courier, monospace;
 }
 
-body{
-background-color: lightgreen;
-}
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(175, 7, 241), rgb(156, 6, 6));
+  }
