@@ -19,7 +19,7 @@ button{
   border-radius: 20px;
   border-color: aliceblue;
   font-size: 40px;
-  background: #6b4894;
+  background: #6915c9;
   width: 102px;
   height: 90px;
   margin: 6px;
@@ -37,6 +37,7 @@ button{
 h1{
   font-size: 30px;
   font-family: 'Courier New', Courier, monospace;
+  color: aliceblue;
 }
 
 body {
